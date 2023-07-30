@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Newtab</title>
+    <link rel="stylesheet"href="style.css">
+</head>
+<body>
+    <center><h1>Welcome Here</h1></center>
+    <!-- form container-->
+    <div class="container">
+        <h1 class="main-heading">Survey Form:</h1>
+        <!--form starts-->
+        <form class="form class">
+            <!--Name-->
+            <div class="form-control">
+                <div class="heading-field">
+                    <h3 class=""input-div>Customer Name</h3>
+                </div>
+                <div class="field-inputs">
+                    <div class="input-div">
+                        <div id="first-name-help" class="help-text">Enter Your  First Name</div>
+                        <input type="text" class="form-control-input" id="first-name" name="first name" required>
+                    </div>
+                    <div class="input-div">
+                        <div id="last-name-help" class="help-text">Enter Your  Last Name</div>
+                        <input type="text" class="form-control-input" id="last-mame" name="last name" required>
+                    </div>
+                </div>
+            </div>
+            <!-- Name Ends-->
+            
+            <!-- Address-->
+            <div class="form-control">
+                <div class="heading-field">
+                    <h3 class="field-head">Address</h3>
+                </div>
+                <div>
+                    <div class="input-div">
+                        <div id="street-address-help" class="help-text">Street Address</div>
+                        <input type="text" class="form-control-input" id="street-address" name="address" required>
+                    </div>
+                </div>
+                <div>
+                    <div class="input-div">
+                        <div id="street-address-help" class="help-text">Street Address Line 2</div>
+                        <input type="text" class="form-control-input" id="street-address-2" name="address" required>
+                    </div>
+            </div>
+            <div class="field inputs">
+                <div class="input-div">
+                    <div id="city-help" class="help-text">City</div>
+                    <input type="text" class="form-control-input" id="city-name" name="city" required>
+                </div>
+                <div class="input-div">
+                    <div id="state-name-help" class="help-text">State</div>
+                    <input type="text" class="form-control-input" id="state-name" name="state" required>
+                </div>
+            </div>
+
+            <div class="field-input">
+                <div class="input-div">
+                    <div id="zip-code-help" class="help-text">Zip</div>
+                    <input type="number" class="form-control-input" id="zip-code" name="zip" required>
+                </div>
+                <div class="input-div">
+                    <div id="country-help" class="help-text">Select Country</div>
+                    <select class="form-control-input" name="country" required>
+                        <option value="Select Country">Select Country</option>
+                        <option value="India">India</option>
+                        <option value="Others">Others</option>
+                    </select>
+                </div>
+            </div>
+            <!-- Contact-->
+            <div class="form-control">
+                <div class="heading-field">
+                    <h3 class="field-head">Contact</h3>
+                </div>
+                <div class="field-inputs">
+                    <div class="input-div">
+                        <div id="tel-name-help" class="help-text">Phone</div>
+                      <input type="tel" class="form-control-input" id="first-name" name="contact" required>
+                    </div>
+                    <div class="input-div">
+                        <div id="last-name-help" class="help-text">Email</div>
+                      <input type="email" class="form-control-input" id="email" name="email" required>
+                    </div>
+            </div>
+            <button> Submit  </button>
+            </div>
+
+        </form>
+    </div>
+</body>
+</html>
